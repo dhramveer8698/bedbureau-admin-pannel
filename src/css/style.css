@@ -3,20 +3,20 @@
     ;
 }
 
-.login-para {
+h2{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
-    color: #2A2338;
     text-align: center;
+    color: #2A2338;
 }
 
-.login-para1 {
+h3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size:40px;
     color: #684ABC;
     text-align: center;
 }
@@ -37,18 +37,18 @@
 }
 
 .formheading {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     color: #2A2338;
 }
-
+.email-id{
+    padding-top: 25px;
+}
 label {
-    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 12px;
     line-height: 13px;
     color: #2C2640;
 }
@@ -112,18 +112,27 @@ label {
     border: 1px solid #DCDFE9;
 
 }
-
+.manage-heading{
+    color: white;
+}
 .header-img {
     border-right: 1px solid #DCDFE9;
 }
 
 .btn-outline-primary {
     border: 1px solid #DCDFE9;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
     color: #2A2338;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
 }
 
 .btn-outline-primary:hover {
-    background: #815dcf;
+    background: #855DD9;;
+    border: 1px solid #855DD9;
 }
 
 .lownloade-img {
@@ -142,13 +151,13 @@ label {
 }
 
 h1{
-    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight:700;
     font-size: 24px;
     line-height: 29px;
     color: #2A2338;
     padding-top: 40px;
+    letter-spacing: 1px;
 }
 h4{
     font-family: 'Montserrat';
@@ -181,6 +190,7 @@ h5{
     margin-left: 10px;
     width: 20px;
     height: 20px;
+    color: #855DD9;
 }
 
 .table-head {
@@ -188,12 +198,11 @@ h5{
 }
 
 .client-list {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.8px;
     color: #0F123F;
 }
 
@@ -312,14 +321,18 @@ tr {
 }
 
 .form-client {
-    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: 700;
+    font-size: 12px;
     line-height: 15px;
     color: #2A2338;
 }
-
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size:15px;
+    border-radius: 0.5rem;
+}
 #myInput::placeholder {
     font-family: 'Montserrat';
     font-style: normal;

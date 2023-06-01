@@ -9,12 +9,13 @@ const ManageClient = () => {
     <>
     <section className="manageclient">
     <div className='container'>
-    <h1 className='client'>Manage Client</h1>
+    <h1>Manage Client</h1>
     <div className="d-flex justify-content-between mt-4">
     <div>
     <input className="input-search form-control rounded-pill me-2" 
     type="search" 
     placeholder="Search"
+    id="myInput"
     aria-label="Search"/>
     <AiOutlineSearch className="icon" />
     </div>
@@ -53,8 +54,8 @@ const ManageClient = () => {
         <label for="exampleInputEmail1" className="form-label form-client">Client Organisation Name</label>
         <input 
         type="email" 
-        className="form-control" 
-        id="exampleInputEmail1" 
+        className="form-control form-control-lg" 
+        id="myInput" 
         aria-describedby="emailHelp" 
         placeholder="Enter client organisation name"
         />
@@ -63,8 +64,8 @@ const ManageClient = () => {
         <label for="exampleInputPassword1" className="form-label form-client">Contact Person Name</label>
         <input
          type="text" 
-         className="form-control" 
-         id="exampleInputPassword1"
+         className="form-control form-control-lg" 
+         id="myInput"
          placeholder="Enter contact person name"
          />
       </div>
@@ -72,8 +73,8 @@ const ManageClient = () => {
         <label for="exampleInputPassword1" className="form-label form-client">Client Email</label>
         <input 
         type="password" 
-        className="form-control" 
-        id="exampleInputPassword1"
+        className="form-control form-control-lg" 
+        id="myInput"
         placeholder="Enter client email"
         />
       </div>

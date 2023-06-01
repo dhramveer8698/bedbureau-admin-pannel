@@ -6,7 +6,7 @@ const Table = () => {
   return (
     <>
     <div className="table-background table-responsive">
-    <h2 className='client-list ps-4 pt-4 pb-3'>List of All Clients</h2>
+    <p className='client-list ps-4 pt-4 pb-3'>List of All Clients</p>
     <table className="table">
       <thead className='table-head'>
         <tr>
