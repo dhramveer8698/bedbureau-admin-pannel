@@ -1,5 +1,6 @@
 import React from 'react'
-import { NAVBAR_IMG, TABLE_IMG1, TABLE_IMG2, TABLE_IMG3 } from '../img/image';
+import { ICON, NAVBAR_IMG, TABLE_IMG1, TABLE_IMG2, TABLE_IMG3 } from '../img/image';
+import { Link } from 'react-router-dom';
 
 const Table = () => {
   
@@ -31,7 +32,23 @@ const Table = () => {
           <td>2</td>
           <td>05 July 2022</td>
           <td>Active</td>
-          <td><img src={TABLE_IMG3}/></td>
+          <td>
+          <span className="dropdown">
+          <img src={TABLE_IMG3} alt="Logo" data-bs-toggle="dropdown" className="Actionimg"/>
+          <ul className="dropdown-menu">
+          <li><Link className="dropdown-item" to="/detail">
+          <img src={ICON} alt="/"/>
+          <span className='dropdown-itemActionHeading ps-2'>Edit</span></Link></li>
+          <li><Link className="dropdown-item" to="/">
+          <img src={ICON} alt="/"/>
+          <span className='dropdown-itemActionHeading ps-2'>Reset Password</span></Link></li>
+          <li><Link className="dropdown-item" to="/">
+          <img src={ICON} alt="/"/>
+          <span className='dropdown-itemActionHeading ps-2'>Deactivate</span></Link></li>
+          </ul>
+          </span>
+          </td>
+         
         </tr>
     <tr>
     <td>1</td>
@@ -41,7 +58,19 @@ const Table = () => {
     <td>2</td>
     <td>14 June 2022</td>
     <td>Pending</td>
-    <td><img src={TABLE_IMG3}/></td>
+    <td>
+    <span className="dropdown">
+    <img className='img' src={TABLE_IMG3} alt="Logo" data-bs-toggle="dropdown"/>
+    <ul className="dropdown-menu">
+    <li className='edit-table'><Link className="dropdown-item" to="/detail">
+    <img src={ICON} alt="/"/>
+    <span className='dropdown-itemActionHeading ps-2'>Edit</span></Link></li>
+    <li><Link className="dropdown-item" to="/">
+    <img src={ICON} alt="/"/>
+    <span className='dropdown-itemActionHeading ps-2'>Activate</span></Link></li>
+    </ul>
+    </span>
+    </td>
     </tr>
       </tbody>
     </table>

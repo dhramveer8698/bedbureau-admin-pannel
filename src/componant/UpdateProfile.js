@@ -7,6 +7,7 @@ const UpdateProfile = () => {
   return (
     <>
      <Header/>
+     <section className='loginbg'>
      <div className='container'>
      <h1>Update Profile</h1>
      <div class="container">
@@ -37,6 +38,7 @@ const UpdateProfile = () => {
      </div>
    </div>
      </div>
+     </section>
     </>
   )
 }

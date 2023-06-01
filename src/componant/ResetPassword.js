@@ -9,6 +9,7 @@ const ResetPassword = () => {
   return (
     <>
     <Header/>
+    <section className='loginbg'>
     <div className='container'>
     <h1>Reset Password</h1>
     <div class="container">
@@ -68,6 +69,7 @@ const ResetPassword = () => {
     </div>
   </div>
     </div>
+    </section>
     </>
   )
 }

@@ -4,3 +4,7 @@ export const NAVBAR_IMG = `https://i.imgur.com/jXYtUHI.jpg`;
 export const TABLE_IMG1 = `https://i.imgur.com/42PLV8u.png`;
 export const TABLE_IMG2 = `https://i.imgur.com/XzwqGuZ.png`;
 export const TABLE_IMG3 = `https://i.imgur.com/YrAHQea.png`;
+export const ICON=`https://i.imgur.com/UR4y4D5.png`;
+export const PENCIL=`https://i.imgur.com/vVc6Ebc.png`;
+export const EDITIMG=`https://i.imgur.com/nfhbG8A.png`;
+export const ARROW=`https://i.imgur.com/hmNgwQ3.png`;

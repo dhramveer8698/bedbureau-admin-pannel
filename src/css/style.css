@@ -34,6 +34,7 @@ h3{
 .formsection {
     padding-top: 90px;
     padding-bottom: 30px;
+    margin-left: 40px;
 }
 
 .formheading {
@@ -75,7 +76,7 @@ label {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17px;
     padding: 6px;
     color: #FFFFFF;
@@ -388,6 +389,10 @@ tr {
     background:#ffffff59; 
     box-shadow: 3px 3px 16px -9px rgba(0,0,0,0.86);
   }
+  .edit-form{
+    background:#ffffff59; 
+    box-shadow: 3px 3px 16px -9px rgba(0,0,0,0.86);
+  }
  
   .update-div{
     padding-top: 30px;
@@ -421,4 +426,84 @@ tr {
   .login-update{
     padding-top: 11px;
     padding-bottom: 11px;
+  }
+
+  .dropdown-menu {
+    --bs-dropdown-link-hover-bg: #855DD9;
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #855DD9;
+    --bs-dropdown-link-disabled-color: #adb5bd;
+    --bs-dropdown-link-hover-color: #fff !important;
+}
+.dropdown-itemActionHeading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #25282B;
+}
+.dropdown-itemActionHeading:hover{
+   color: #fff;
+}
+.edit-button{
+    text-align: right;
+}
+.full-edit-heading{
+    padding-top: 30px;
+}
+.edit-emg{
+    padding-left:40px;
+}
+.edit-paragraph{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #969DAB;
+}
+.edit-paragraph1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #2A2338; 
+}
+.edit-heading-1{
+    color: #10940D;
+}
+.edit-page{
+    padding-bottom: 165px;
+}
+.manage-edit{
+    padding-top: 40px;  
+}
+.manage-edit-paragraph{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ABAFB7;
+}
+.manage-edit-paragraph1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2A2338;
+    padding-left: 15px;
+}
+.arrow{
+    padding-left: 15px;
+    margin-top: -3px;
+}
+@media screen and (max-width:768px) {
+   .main-img{
+    width: 350px;
+   }
+   .formsection{
+    margin-left: 0px;
+   }
   }

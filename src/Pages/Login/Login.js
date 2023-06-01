@@ -15,10 +15,10 @@ const Login = () => {
    <div className='text-center login-merg-para'>
    <h2>Welcome to</h2>
    <h3>Bed Bureau Super Admin</h3>
-   <img src={LOGIN_IMG} className='pt-5'/>
+   <img src={LOGIN_IMG} className='main-img pt-5'/>
    </div>
    </div>
-   <div className='col-lg-5 formsection ms-5'>
+   <div className='col-lg-5 formsection'>
    <section className='form px-5'>
    <p className='formheading pt-3'>Login</p>
    <form>
