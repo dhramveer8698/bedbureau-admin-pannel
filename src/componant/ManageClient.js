@@ -15,7 +15,6 @@ const ManageClient = () => {
     <input className="input-search form-control rounded-pill me-2" 
     type="search" 
     placeholder="Search"
-    id="myInput"
     aria-label="Search"/>
     <AiOutlineSearch className="icon" />
     </div>
@@ -50,36 +49,33 @@ const ManageClient = () => {
       </div>
       <div className='container form-add-client'>
       <form>
-      <div class="mt-2">
-        <label for="exampleInputEmail1" className="form-label form-client">Client Organisation Name</label>
+      <div className="mt-2">
+        <label className="form-label form-client">Client Organisation Name</label>
         <input 
-        type="email" 
-        className="form-control form-control-lg" 
-        id="myInput" 
+        type="text" 
+        className="form-control form-control-lg"  
         aria-describedby="emailHelp" 
         placeholder="Enter client organisation name"
         />
       </div>
       <div className="mt-3">
-        <label for="exampleInputPassword1" className="form-label form-client">Contact Person Name</label>
+        <label className="form-label form-client">Contact Person Name</label>
         <input
          type="text" 
          className="form-control form-control-lg" 
-         id="myInput"
          placeholder="Enter contact person name"
          />
       </div>
       <div className="mt-3">
-        <label for="exampleInputPassword1" className="form-label form-client">Client Email</label>
+        <label  className="form-label form-client">Client Email</label>
         <input 
         type="password" 
         className="form-control form-control-lg" 
-        id="myInput"
         placeholder="Enter client email"
         />
       </div>
       <div className='container pt-4 pb-5'>
-      <div class="d-flex justify-content-around">
+      <div className="d-flex justify-content-around">
       <Button
       buttonStyle="btn add-client-button1"
       labelstyle="add-logo-button2"

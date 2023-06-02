@@ -334,14 +334,13 @@ tr {
     font-size:15px;
     border-radius: 0.5rem;
 }
-#myInput::placeholder {
+::placeholder {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: #C8C6CE;
+    color: #C8C6CE !important;
   }
-
 .add-logo-button1 {
     font-family: 'Montserrat';
     font-style: normal;

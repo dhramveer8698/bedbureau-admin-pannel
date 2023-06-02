@@ -23,12 +23,20 @@ const Login = () => {
    <p className='formheading pt-3'>Login</p>
    <form>
    <div className="email-id mb-4">
-     <label for="email">Email ID</label>
-     <input type="email" className="form-control mt-2" id="myInput" placeholder="Enter email id" name="email"/>
+     <label>Email ID</label>
+     <input 
+     type="email" 
+     className="form-control mt-2" 
+     placeholder="Enter email id" 
+     name="email"/>
    </div>
    <div className="mb-5">
-     <label for="pwd">Password</label>
-     <input type="password" className="form-control mt-2" id="myInput" placeholder="Enter Password" name="pswd"/>
+     <label>Password</label>
+     <input 
+     type="password" 
+     className="form-control mt-2" 
+     placeholder="Enter Password" 
+     name="pswd"/>
      <div className='forgot-passwrd pt-2'>
      <a 
      className='forgot-password'

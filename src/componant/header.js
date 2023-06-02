@@ -38,7 +38,7 @@ const Header = () => {
       <button type="button" className="btn btn-outline-primary me-4 mt-2">
       <IoLogOutOutline className='me-2' />Logout</button>
       </a>
-      <a class="navbar-brand" href="/">
+      <a className="navbar-brand" href="/">
       <img src={NAVBAR_IMG} alt=""  className="rounded-pill lownloade-img"/> 
     </a>
       </form>

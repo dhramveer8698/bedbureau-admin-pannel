@@ -12,25 +12,23 @@ const ResetPassword = () => {
     <section className='loginbg'>
     <div className='container'>
     <h1>Reset Password</h1>
-    <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6">
-        <form className='update-form'>
+    <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-lg-6">
+        <form className='update-form' >
         <div className="mt-5">
-        <label className='update-label' for="email">Current Password*</label>
+        <label className='update-label'>Current Password*</label>
         <input 
         type="password" 
         className="form-control form-control-lg mt-2" 
-        id="myInput"  
         placeholder="Enter current password" 
         name="email"/>
       </div>
       <div className="update-div">
-      <label className='update-label' for="email">New Password*</label>
+      <label className='update-label'>New Password*</label>
       <input 
       type="password" 
       className="form-control form-control-lg mt-2" 
-      id="myInput" 
       placeholder="Enter new password" 
       name="email"/>
     </div>
@@ -45,11 +43,10 @@ const ResetPassword = () => {
     <div className="update-div">
     <label 
     className='update-label' 
-    for="email">Confirm Password**</label>
+    >Confirm Password**</label>
     <input 
     type="password" 
-    className="form-control form-control-lg mt-2" 
-    id="myInput" 
+    className="form-control form-control-lg mt-2"  
     placeholder="Confirm new password" 
     name="email"/>
   </div>
@@ -74,4 +71,4 @@ const ResetPassword = () => {
   )
 }
 
-export default ResetPassword
+export default ResetPassword;

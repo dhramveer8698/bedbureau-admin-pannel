@@ -74,10 +74,10 @@ const Table = () => {
     </tr>
       </tbody>
     </table>
-    <div class="center">
-    <div class="pagination">
+    <div className="center">
+    <div className="pagination">
         <a href="#">&lt;</a>
-        <a href="#" class="active">1</a>
+        <a href="#" className="active">1</a>
         <a href="#">2</a>
         <a href="#">3</a>
         <a href="#">&gt;</a>
