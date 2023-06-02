@@ -33,7 +33,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-      <form className="d-flex">
+      <form className="d-flex header-flex">
       <a className="nav-link" href="/login">
       <button type="button" className="btn btn-outline-primary me-4 mt-2">
       <IoLogOutOutline className='me-2' />Logout</button>

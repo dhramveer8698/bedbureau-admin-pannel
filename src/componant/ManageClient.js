@@ -78,24 +78,20 @@ const ManageClient = () => {
         placeholder="Enter client email"
         />
       </div>
-      <div className='container pt-4 pb-5 ms-3'>
-      <div className='row' >
-     <div className='col-sm-6'>
-     <Button
-     buttonStyle="btn add-client-button1"
-     labelstyle="add-logo-button2"
-     label="Canel"
-     >
-     </Button>
-     </div> 
-     <div className='col-sm-4'>
+      <div className='container pt-4 pb-5'>
+      <div class="d-flex justify-content-around">
       <Button
-     buttonStyle="btn add-logo-button"
-     labelstyle="add-logo-button1"
-     label="Add"
-     >
-     </Button>
-     </div> 
+      buttonStyle="btn add-client-button1"
+      labelstyle="add-logo-button2"
+      label="Canel"
+      >
+      </Button>
+      <Button
+      buttonStyle="btn add-logo-button"
+      labelstyle="add-logo-button1"
+      label="Add"
+      >
+      </Button>
       </div>
       </div>
     </form>

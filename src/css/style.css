@@ -347,10 +347,11 @@ tr {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
     color: #FFFFFF;
-    padding: 10px 40px;
     cursor: pointer;
+    width: 145px;
+    height: 30px;
+    padding-top:9px;
 }
 .add-logo-button:hover{
     background: #815dcf;  
@@ -360,9 +361,10 @@ tr {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
     color: #9DA2AD;
-    padding: 10px 40px;
+    width: 145px;
+    height: 30px;
+    padding-top:7px;
 }
 
 .add-client-button1:hover {
@@ -424,8 +426,8 @@ tr {
     margin-top: 20px;
   }
   .login-update{
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .dropdown-menu {
@@ -505,5 +507,42 @@ tr {
    }
    .formsection{
     margin-left: 0px;
+   }
+   h2{
+    font-size: 27px;
+   }
+   h3{
+    font-size: 27px;
+   }
+   .formheading{
+    font-size: 30px;
+   }
+   .update-form{
+    margin-top: 25px;
+   }
+   .add-client-button1{
+    width:90px;
+    height: 55px;
+   }
+   .add-logo-button{
+    width: 90px;
+    height: 55px;
+   }
+   .add-logo-button2{
+    width: 0;
+    padding-right: 40px;
+    padding-top: 10px;
+   }
+   .add-logo-button1{
+    width: 0;
+    padding-right:35px;
+    padding-top: 10px;
+   }
+   .header-flex{
+    display: block !important;
+   }
+   .lownloade-img{
+    margin-top: 15px;
+    margin-bottom: 15px;
    }
   }
